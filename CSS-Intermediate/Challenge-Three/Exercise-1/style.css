@@ -1,0 +1,30 @@
+.container {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.flex-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.red-box {
+  height: 150px;
+  width: 30%;
+  flex-grow: 1;
+  background-color: indianred;
+}
+
+.blue-box {
+  height: 150px;
+  width: 55%;
+  flex-grow: 2;
+  background-color: cornflowerblue;
+}
+
+.yellow-box {
+  height: 150px;
+  background-color: sandybrown;
+}
