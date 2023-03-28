@@ -29,6 +29,7 @@ h1 {
 
 .head:hover {
   width: 300px;
+  background-color: blue;
   transition: 1s ease-in-out;
 }
 
@@ -48,10 +49,19 @@ h1 {
 
 .left_arm {
   margin-right: 10px;
+  transition: all 3s;
 }
 
 .right_arm {
   margin-left: 10px;
+}
+
+.left_arm:hover {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(70deg);
 }
 
 .torso {
