@@ -1,0 +1,40 @@
+.container {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.green-box {
+  background-color: green;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.flex-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  flex-basis: 32%;
+  height: 300px;
+}
+
+img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
