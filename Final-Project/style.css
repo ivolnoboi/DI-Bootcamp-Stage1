@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #132a13;
+}
+
+.header__nav-menu {
+  height: 70px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero {
+  height: calc(100vh - 70px);
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("src/1200x600bf.png") no-repeat;
+  background-size: cover;
+}
