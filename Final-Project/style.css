@@ -217,3 +217,38 @@ h3 {
 .discography__single-album::before {
   content: "Album: ";
 }
+
+/*****************************************/
+/* AWARDS SECTION */
+/****************************************/
+
+#awards {
+  background-color: #31572c;
+  color: #ecf39e;
+  padding: 80px 0 120px 0;
+}
+
+#awards h2 {
+  margin-bottom: 30px;
+}
+
+.awards__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  text-align: center;
+}
+
+.awards__item {
+  border: 5px solid #ecf39e;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.awards__item-date::before {
+  content: "Year: ";
+}
+
+.awards__item-nomination::before {
+  content: "Nomination: ";
+}
