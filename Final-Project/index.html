@@ -4,29 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <header class="header">
-        <nav class="header__nav container">
-          <ul class="header__nav-menu">
-            <li class="header__nav-menu-item"><a href="#">Home</a></li>
-            <li class="header__nav-menu-item"><a href="#">About</a></li>
-            <li class="header__nav-menu-item"><a href="#">Discography</a></li>
-            <li class="header__nav-menu-item"><a href="#">Awards</a></li>
-            <li class="header__nav-menu-item"><a href="#">More</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section class="hero">
+    <header class="header">
+      <nav class="header__nav container">
+        <ul class="header__nav-menu">
+          <li class="header__nav-menu-item"><a href="#">Home</a></li>
+          <li class="header__nav-menu-item"><a href="#about">About</a></li>
+          <li class="header__nav-menu-item">
+            <a href="#discography">Discography</a>
+          </li>
+          <li class="header__nav-menu-item"><a href="#awards">Awards</a></li>
+          <li class="header__nav-menu-item"><a href="#footer">More</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section id="hero">
         <div class="container">
           <h1 class="hero__title">Alvaro Soler</h1>
           <p class="hero__description">is a Spanish-German singer</p>
         </div>
       </section>
-      <section class="about">
+      <section id="about">
         <div class="about__item">
           <span class="about__date">1991</span>
           <p class="about__event">
@@ -96,7 +108,7 @@
           </p>
         </div>
       </section>
-      <section class="discography">
+      <section id="discography">
         <div class="discography__albums">
           <article class="discography__album">
             <h2 class="discography__album-title">Eterno Agosto</h2>
@@ -219,6 +231,65 @@
           </article>
         </div>
       </section>
-    </div>
+      <section id="awards">
+        <h2 class="awards__title">Awards</h2>
+        <article class="awards__item">
+          <h3 class="awards__item-title">Los Premios 40 Principales</h3>
+          <p class="awards__item-date">2015</p>
+          <p class="awards__item-nomination">Best Spanish New Artist</p>
+        </article>
+        <article class="awards__item">
+          <h3 class="awards__item-title">European Border Breakers Award</h3>
+          <p class="awards__item-date">2016</p>
+          <p class="awards__item-nomination">Best Emerging Artist – Spain</p>
+        </article>
+        <article class="awards__item">
+          <h3 class="awards__item-title">Die Eins der Besten</h3>
+          <p class="awards__item-date">2017</p>
+          <p class="awards__item-nomination">Video-Hit of the Year</p>
+        </article>
+        <article class="awards__item">
+          <h3 class="awards__item-title">Swiss Music Awards</h3>
+          <p class="awards__item-date">2017</p>
+          <p class="awards__item-nomination">Best Breaking Act International</p>
+        </article>
+        <article class="awards__item">
+          <h3 class="awards__item-title">LOS40 Music Awards</h3>
+          <p class="awards__item-date">2017</p>
+          <p class="awards__item-nomination">Song of the Year</p>
+        </article>
+        <article class="awards__item">
+          <h3 class="awards__item-title">Die Eins der Besten</h3>
+          <p class="awards__item-date">2019</p>
+          <p class="awards__item-nomination">Hit of the Year</p>
+        </article>
+      </section>
+    </main>
+    <footer id="footer">
+      <p class="footer__learn-more">
+        To learn more information visit
+        <a href="https://en.wikipedia.org/wiki/Álvaro_Soler">Wikipedia</a>
+        <a href="http://alvarosoler.com/en/"
+          ><ion-icon name="globe-outline"></ion-icon
+        ></a>
+        <a href="https://twitter.com/asolermusic"
+          ><ion-icon name="logo-twitter"></ion-icon
+        ></a>
+        <a href="https://www.facebook.com/alvarosolermusic"
+          ><ion-icon name="logo-facebook"></ion-icon
+        ></a>
+        <a href="https://www.instagram.com/alvarosolermusic/"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
