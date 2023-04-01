@@ -150,13 +150,18 @@ h3 {
 #discography {
   background-color: #ecf39e;
   color: #132a13;
-  padding: 60px 0 100px 0;
+  padding: 80px 0 120px 0;
+}
+
+#discography h2 {
+  margin-bottom: 30px;
 }
 
 .discography__albums {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
+  margin-bottom: 100px;
 }
 
 .discography__album {
